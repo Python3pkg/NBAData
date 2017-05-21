@@ -1,5 +1,5 @@
-from NBAData.data_methods import methods as m
-from NBAData.constants import BASE_DATA_URL as base
+from .NBAData.data_methods import methods as m
+from .NBAData.constants import BASE_DATA_URL as base
 import json
 import urllib.request
 
@@ -10,7 +10,7 @@ def get_data(url):
 
 def print_method_list():
     for key in m:
-        print(m.get(key).get('function'))
+        print((m.get(key).get('function')))
 
 def get_method_list():
     methods = []

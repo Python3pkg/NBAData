@@ -1,1 +1,1 @@
-from NBAData.NBAData import *
+from .NBAData.NBAData import *
